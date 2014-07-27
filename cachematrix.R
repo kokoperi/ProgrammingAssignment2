@@ -1,16 +1,15 @@
-## makeCacheMatrix receive a matrix and provides four functions, 
+## makeCacheMatrix receives a matrix and provides four functions, 
 ## which are set(),get(), setinv(),getinv(). It returns a list 
-## which contains the four functions and a matrix data. The matrix
+## that contains the four functions and a matrix data. The matrix
 ## data can be only accessed through the functions.
 
 ## For example, you can use makeCacheMatrix as follows.
 ##     > a <- matrix(c(1,0,0,2), nrow = 2, ncol = 2) 
-##     >  a$get()
+##     > a$get()
 ## It returns:
 ##          [,1] [,2]
 ##     [1,]    1    0
 ##     [2,]    0    2
-##
 ##
 ## Otherwise, you can use the function as follows.
 ##     > a<-makeCacheMatrix()
